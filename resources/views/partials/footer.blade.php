@@ -2,11 +2,6 @@
 <footer>
     <div class="container">
         <div class="up">
-            <div class="items" v-for="(items, index) in digital" :key="index">>
-                <img :src="items.img" alt="">
-                <span>{{items.testo}}</span>
-            </div>
-            //non funziona non capisco il perchè
             <div class="items">
                 <img src="../assets/img/buy-comics-merchandise.png" alt="">
                 <span>DIGITAL COMICS</span>
