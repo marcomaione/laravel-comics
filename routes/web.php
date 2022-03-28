@@ -89,5 +89,5 @@ Route::get('/', function () {
           "type"=> "graphic novel"
         ],
     ];
-    return view('home', ['poster' => $cards]);
+    return view('home', ['posters' => $cards]);
 });

@@ -14,10 +14,12 @@
             <div class="list">
                 @foreach ($posters as $poster)
                    <div class="card">
-                       <img src="{{$poster['thumbs']}}" alt="">
+                       <img src="{{$poster['thumb']}}" alt="">
                        <h3>{{$poster['series']}}</h3>
                    </div>
                 @endforeach
+                
+
             </div>
         </div>
         <div class="more">
