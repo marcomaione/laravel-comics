@@ -10,7 +10,9 @@
 <body>
     @include('partials.header')
     <main>
-
+        <div class="more">
+            <button>LOAD MORE</button>
+        </div>  
     </main>
     @include('partials.footer')
 </body>
