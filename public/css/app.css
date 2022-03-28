@@ -23,6 +23,13 @@
   color: black;
 }
 
+.jumbotron {
+  margin-top: 20px;
+  min-height: 400px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+}
+
 .content {
   width: 100%;
   min-height: 500px;
