@@ -10,6 +10,13 @@
 <body>
     @include('partials.header')
     <main>
+        <div class="content">
+            <div class="list">
+                <div class="card">
+
+                </div>
+            </div>
+        </div>
         <div class="more">
             <button>LOAD MORE</button>
         </div>  
