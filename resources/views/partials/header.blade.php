@@ -1,6 +1,6 @@
 <header>
     <div class="menu">
-        <img src="../assets/img/dc-logo.png" alt="">
+        <img src="/img/dc-logo.png" alt="">
             <nav>
             
                 <ul>

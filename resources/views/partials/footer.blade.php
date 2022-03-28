@@ -3,19 +3,19 @@
     <div class="container">
         <div class="up">
             <div class="items">
-                <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                <img src="/img/buy-comics-merchandise.png" alt="">
                 <span>DIGITAL COMICS</span>
             </div>
             <div class="items">
-                <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                <img src="/img/buy-comics-subscriptions.png" alt="">
                 <span>DIGITAL COMICS</span>
             </div>
             <div class="items">
-                <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+                <img src="/img/buy-comics-shop-locator.png" alt="">
                 <span>DIGITAL COMICS</span>
             </div>
             <div class="items">
-                <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                <img src="/img/buy-dc-power-visa.svg" alt="">
                 <span>DIGITAL COMICS</span>
             </div>
         </div>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <div class="midle-right">
-                    <img src="../assets/img/dc-logo-bg.png" alt="">
+                    <img src="/img/dc-logo-bg.png" alt="">
                 </div>
             </div>
         </div>
@@ -123,11 +123,11 @@
                 </div>
                 <div>
                     <a href="#">FOLLOW US</a>
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-periscope.png" alt="">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
-                    <img src="../assets/img/footer-twitter.png" alt="">
-                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="/img/footer-facebook.png" alt="">
+                    <img src="/img/footer-periscope.png" alt="">
+                    <img src="/img/footer-pinterest.png" alt="">
+                    <img src="/img/footer-twitter.png" alt="">
+                    <img src="/img/footer-youtube.png" alt="">
                 </div>
            </div>
         </div>
