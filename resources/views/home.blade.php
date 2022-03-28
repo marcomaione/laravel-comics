@@ -7,7 +7,7 @@
     <title>comics-laravel</title>
 </head>
 <body>
-    @include
+    @include('partials.header')
     <main>
 
     </main>
