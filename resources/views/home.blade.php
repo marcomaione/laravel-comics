@@ -12,14 +12,13 @@
     <main>
         <div class="content">
             <div class="list">
-                @foreach ($posters as $poster)
-                   <div class="card">
-                       <img src="{{$poster['thumb']}}" alt="">
-                       <h3>{{$poster['series']}}</h3>
-                   </div>
+                @foreach ($posters as $key => $poster)
+                    <a href="/poster/{{$key}}"><div class="card">
+                            <img src="{{$poster['thumb']}}" alt="">
+                            <h3>{{$poster['series']}}</h3>
+                        </div>
+                    </a>
                 @endforeach
-                
-
             </div>
         </div>
         <div class="more">

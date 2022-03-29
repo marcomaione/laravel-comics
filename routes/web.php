@@ -91,3 +91,8 @@ Route::get('/', function () {
     ];
     return view('home', ['posters' => $cards]);
 });
+
+route::get('/poster/{id}', function($id){
+
+  dd($id);
+});
