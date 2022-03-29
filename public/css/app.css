@@ -31,6 +31,8 @@
 }
 
 .center {
+  width: 100%;
+  height: 600px;
   display: flex;
   background-color: rgb(0, 0, 0);
   justify-content: space-around;
@@ -40,37 +42,39 @@
 .poster {
   padding: 10px 0px;
   width: 33%;
+  height: 100%;
   text-align: center;
-  border: solid 1px wheat;
+  border-right: solid 1px lightgray;
 }
 
 .info {
-  border: solid 1px wheat;
+  border-right: solid 1px lightgray;
   width: 33%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .info a {
   text-decoration: none;
   color: white;
   font-size: 20px;
+  margin: 10px 10px;
 }
 
 .info h1 {
   color: white;
-}
-.info span {
-  margin: 30px 10px;
-  color:lightgreen;
+  text-align: center;
+  margin: 35px 0px;
 }
 
 .poster-l {
   width: 33%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: solid 1px wheat;
 }
 
 .poster h2 {
@@ -90,13 +94,20 @@
 
 }
 
+.poster p {
+  color: lightgreen;
+  margin: 5px 0px;
+
+}
+
 .poster-l h1 {
   color: white;
+  margin: 35px 0px;
 }
 
 .poster-l p {
   color: white;
-  margin:auto 10px;
+  margin:auto 30px;
   font-size: 20px;
 }
 
