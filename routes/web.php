@@ -93,6 +93,6 @@ Route::get('/', function () {
 });
 
 route::get('/poster/{id}', function($id){
-
-  dd($id);
+    
+   if(is_numeric($poster))
 });
