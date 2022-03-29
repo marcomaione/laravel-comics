@@ -12,7 +12,7 @@
     <main>
         <div class="content">
             <div class="list">
-                @foreach ($posters as $key => $poster)
+                @foreach ($cards as $key => $poster)
                     <a href="/poster/{{$key}}"><div class="card">
                             <img src="{{$poster['thumb']}}" alt="">
                             <h3>{{$poster['series']}}</h3>
