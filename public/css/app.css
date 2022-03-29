@@ -30,6 +30,56 @@
   background-size: cover;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+}
+.poster {
+  width: 50%;
+  text-align: center;
+}
+
+.poster h2 {
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.poster img {
+  margin:20px 0px;
+  border: solid 3px wheat;
+}
+
+.poster h3 {
+  color: white;
+  font-size: 30px;
+  margin: 10px 0px;
+
+}
+
+.poster span {
+  margin: 10px 10px;
+  color:lightgreen;
+}
+
+.poster p {
+  color: wheat;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+.poster button {
+  background-color: #0282f9;
+  color: white;
+  border: solid 1px #0282f9 ;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
 .content {
   width: 100%;
   min-height: 500px;
