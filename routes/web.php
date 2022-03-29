@@ -94,5 +94,13 @@ Route::get('/', function () {
 
 route::get('/poster/{id}', function($id){
 
-   dd($id);
+  $cards = config('comics');
+
+  if ( is_numeric($id) && $id >= 0 && $id < count($cards)) {
+    $infoPoster = $cards[$id];
+    return view('info_poster', ['poster' => $infoPoster]);
+  } else {
+    abort(404, 'informazioni non disponibili');
+  }
+
 });
